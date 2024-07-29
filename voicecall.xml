@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say>Hello, this is a call from your Ejyle-connect. This call is regarding your enrollment to our services.</Say>
+  <Pause length="2"/>
+  <Say>Are you interested in enrolling in our program? Press 1 for Yes, 2 for No.</Say>
+  <Gather numDigits="1" action="/gather" method="POST">
+    <Say>Please press a key.</Say>
+  </Gather>
+</Response>
